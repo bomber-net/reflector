@@ -1,0 +1,22 @@
+{
+	"name":"bomber-net/reflector",
+	"description":"Library for get information about objects and classes based on Reflection API",
+	"type":"library",
+	"license":"MIT",
+	"minimum-stability":"dev",
+	"version":"1.0.0",
+	"autoload":{
+		"psr-4":{
+			"BomberNet\\Reflector\\":"src/"
+		}
+	},
+	"authors":[
+		{
+			"name":"bomber-net",
+			"email":"an-rtk@mail.ru"
+		}
+	],
+	"require":{
+		"php":">=7.4"
+	}
+}
